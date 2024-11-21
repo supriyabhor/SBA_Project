@@ -1,0 +1,704 @@
+@import url();
+/* -------------------Key Frames--------------- */
+
+@keyframes animateThis
+{
+  0%
+  {
+    font-size: 20px;
+  }
+  50%
+  {
+    font-size: 20px;
+    color: crimson;
+  }
+  100%
+  {
+    font-size: 20px;
+    color:red;
+  }
+}
+
+/*------------------------------ Desktop screen -------------------------*/
+@media (max-width: 1580px) {
+    body {
+      background-color:lightcyan;
+      
+      /* background-image: url(https://media.istockphoto.com/id/2167374777/vector/soft-pink-and-purple-gradient-background-with-a-subtle-grainy-texture-perfect-for-elegant.jpg?s=612x612&w=0&k=20&c=kjDKlTfOu4q0Gp2mi4snmFe3pNtOodSQcPeKkakw0Rk=); */
+    }
+    .mainContainer
+   {
+    /* border: solid blue; */
+    height: 150vh;
+    /* justify-content: space-evenly; */
+    display: flex;
+    margin: 1em;
+   }
+    .mainImg
+    {
+      width: 100%;
+      height: 400px;
+      /* display: none; */
+    }
+   
+    
+      .container1
+      {
+          /* border: solid crimson; */
+          width: 70%;
+      }
+
+      .imgCont
+      {
+        /* border: solid black; */
+        height: 50vh;
+        width: auto;
+        display: flex;
+      }
+      .imgCont1
+      {
+        background-image: url(https://images.pexels.com/photos/4586688/pexels-photo-4586688.jpeg?auto=compress&cs=tinysrgb&w=600);
+        background-position: center;
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        /* border: solid purple; */
+        height: 58vh;
+        width: 50%;
+        margin: 1em;
+      }
+      .imgCont2
+      {
+        background-image: url(https://media.istockphoto.com/id/1390990519/photo/image-of-young-asian-bride-and-groom.jpg?b=1&s=612x612&w=0&k=20&c=Gs842tZEqTTqgIGUWjlTJMTNa8xHZRw0C1qBeN6TSQw=);
+        background-size: cover;
+        background-position: center;
+        /* border: solid orangered; */
+        height: 58vh;
+        width: 50%;
+        margin: 1em;
+      }
+      .imgCont31
+      {
+        /* border: solid blue; */
+        height: 50vh;
+        width: auto;
+       
+      }
+      /* .imgCont3
+      {
+        background-image: url(https://images.pexels.com/photos/325690/pexels-photo-325690.jpeg?auto=compress&cs=tinysrgb&w=600);
+        background-size: cover;
+        background-position: center;
+        border: solid orangered;
+        height: 50vh;
+        width: 50%;
+        
+      } */
+
+      .Container2
+      {
+          /* border: solid goldenrod; */
+          width: 30%;
+      }
+
+     
+     .siteName
+      {
+      /* border: solid darkgoldenrod; */
+      height: 60px;
+      margin: 1em;
+      text-align: center;  
+      }
+     .siteImg
+      {
+          height: 100%;
+          width: 200px;     
+      }
+
+      .homelogo
+      {
+      height: 100%;
+      width: 55px; 
+      }
+
+
+      .navBar
+      {
+          /* border: solid black; */
+          height: 30px;
+          margin: 1em;
+          display: flex;
+          justify-content: space-around;
+        
+      }
+      .tableContainer 
+      {
+      max-width: 900px;
+      margin: 2px;
+      padding: 10px;
+      background-color: white;
+      text-align: center;
+      
+     }
+     table,th,td {
+      width: 100%;
+      border-collapse: collapse; 
+      margin-top: 10px;
+      border: 1px solid;
+     }
+     th, td
+      {
+      padding: 20px;
+      text-align: left;
+      border: 1px solid black;
+      }
+     th
+     {
+     background-color: rgb(204, 239, 204);
+     }
+     
+.galleryContainer
+{
+    text-align: center;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+      
+}
+/* .h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+} */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+ 
+.gallery img
+ {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+   
+    transition: transform 0.3s ease-in-out;
+  }
+  .gallery img:hover
+   {
+    transform: scale(1.05);
+   } 
+
+
+     .footer
+
+      { 
+        /* border: solid brown; */
+          height: 50px;
+      }
+}
+
+  /* ----------------------------Ipad screen----------------------------*/
+@media (max-width: 1080px) 
+  {
+    body {
+      background-color: lightcyan;
+
+    }
+    .mainContainer
+    {
+    /* border: solid blue; */
+    height: 50vh;
+    width: auto;
+    justify-content: space-around;
+    display: flex;
+    margin: 1em;
+    }
+    .mainImg
+    {
+    width: 100%;
+    height: 300px;
+    
+    }
+      /* .motionImg
+      {
+        width: 100%;
+        height: 400px;
+        display: none;
+      } */
+
+      .displayText
+      {
+        font-size: 15px;
+        margin: 1em;
+        text-align: center;
+      }
+      .imgCont
+      {
+        /* border: solid black; */
+        height: 50vh;
+        width: auto;
+        display: flex;
+        display: none;
+      }
+      .imgCont1
+      {
+        /* border: solid purple; */
+        height: 50vh;
+        width: 50%;
+      }
+      .imgCont2
+      {
+        /* border: solid orangered; */
+        height: 50vh;
+        width: 50%;
+      }
+      .imgCont31
+      {
+        /* border: solid blue; */
+        height: 50vh;
+        width: auto;
+        display: none;
+       
+      }
+  
+      .Container2
+      {
+          /* border: solid goldenrod; */
+          width: 20%;
+          display: none;
+      }
+      .container3
+      {
+        /* border: solid black; */
+        height:700px; 
+        
+      }
+      .siteName
+      {
+          /* border: solid darkgoldenrod; */
+          height: 60px;
+          margin: 1em;
+          text-align: center;  
+        
+      }
+      .siteImg
+      {
+        height: 100%;
+        width: 200px;     
+      }
+      .homelogo
+      {
+          height: 100%;
+          width: 55px; 
+      }
+          
+      .navBar
+      {
+        /* border: solid black; */
+          height: 30px;
+          margin: 1em;
+          display: flex;
+          justify-content: space-around;
+        
+      }
+    .tableContainer 
+    {
+        max-width: 900px;
+        margin: 2px;
+        padding: 10px;
+        background-color: white;
+        text-align: center;
+      }
+      table,th,td {
+        width: 100%;
+        border-collapse: collapse; 
+        margin-top: 10px;
+        border: 1px solid;
+      }
+      th, td {
+        padding: 20px;
+        text-align: left;
+        border: 1px solid black;
+      }
+      th
+      {
+      background-color: rgb(204, 239, 204);
+      }
+
+      
+.galleryContainer
+{
+    text-align: center;
+    max-width: 900px;
+    margin: 20px;
+    padding: 20px;
+      
+}
+/* .h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+} */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+.gallery img
+ {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .gallery img:hover
+   {
+    transform: scale(1.05);
+   } 
+
+            .footer
+      {
+          /* border: solid brown; */
+          height: 50px;
+      }
+
+ }
+
+/*----------------------------- mobile screen --------------------------*/
+@media (max-width: 580px) {
+    body {
+      background-color:lightcyan;
+      /* background-image: url(https://media.istockphoto.com/id/2167374777/vector/soft-pink-and-purple-gradient-background-with-a-subtle-grainy-texture-perfect-for-elegant.jpg?s=612x612&w=0&k=20&c=kjDKlTfOu4q0Gp2mi4snmFe3pNtOodSQcPeKkakw0Rk=); */
+    }
+    .mainContainer
+     {
+    /* border: solid blue; */
+    height: 110vh;
+
+    justify-content: space-evenly;
+    display:block;
+    margin: 1em;
+    }
+    
+    .container1
+   {
+    /* border: solid crimson; */
+    width: 100%;
+    height: 260px;
+  }
+  
+  .imgCont
+  {
+    /* border: solid black; */
+    height: 50vh;
+    width: auto;
+    display: flex;
+    display: none;
+  }
+  .imgCont1
+  {
+    /* border: solid purple; */
+    height: 50vh;
+    width: 50%;
+  }
+  .imgCont2
+  {
+    /* border: solid orangered; */
+    height: 50vh;
+    width: 50%;
+  }
+  .displayText
+  {
+    font-size: 15px;
+    display: none;
+  }
+  
+  .mainImg
+  {
+    width: 100%;
+    height: 260px;
+  }
+  /* .motionImg
+  {
+    width: 100%;
+    height: 400px;
+    display: none;
+  } */
+   
+  .container2
+   {
+    /* border: solid goldenrod; */
+    width: 30%;
+    display: none;
+   }
+  .container3
+  {
+    /* border: solid black; */
+    height:500px;  
+  }
+    .siteName
+    {
+        /* border: solid darkgoldenrod; */
+        height: 60px;
+        margin: 1em;
+        text-align: center;  
+        
+
+    }
+    .siteImg
+    {
+        height: 100%;
+        width: 200px;     
+    }
+    
+    .homelogo
+    {
+      height: 100%;
+      width: 55px; 
+      padding: 0px 10px 10px 10px;
+   }
+    .navBar
+    {
+        /* border: solid black; */
+        height: 30px;
+        /* padding-top: 0.5em; */
+        margin: 1em;
+        display: flex;
+        justify-content: space-around;
+       
+    }
+    .tableContainer 
+    {
+         max-width: 900px;
+         margin: 10px;
+        padding: 10px;
+        font-size: 13px;
+        /* background-color: white; */
+        border-radius: 15px;
+        /* border: solid red; */
+        text-align: center;
+    
+      }
+    
+    
+      table,th,td {
+        /* width: 100%; */
+        border-collapse: collapse; 
+        /* margin-top: 10px; */
+        border: 1px solid; 
+      }
+      th, td {
+        padding: 15px;
+        /* border: 1px solid black; */
+      }
+     th
+     {
+      background-color: rgb(204, 239, 204);
+     }
+     
+.galleryContainer
+{
+    text-align: center;
+    max-width: 900px;
+    margin: 20px;
+    padding: 20px;
+      
+}
+/* .h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+} */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+.gallery img
+ {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .gallery img:hover
+   {
+    transform: scale(1.05);
+   } 
+
+     .footer
+     {
+         /* border: solid brown; */
+         height: 50px;
+     }
+
+    }
+
+
+     /*----------------------General CSS--------------------------  */
+
+     .body
+{
+    background-color: lightblue;
+  
+}
+.siteName
+{
+    /* border: solid darkgoldenrod; */
+    height: 60px;
+    margin: 1em;
+    text-align: center;  
+}
+
+.navBar
+{
+    /* border: solid black; */
+    height: 30px;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+   
+ }
+
+ 
+ 
+ 
+.navBar a:hover
+{
+  background-color: rgb(255, 255, 255);
+}
+
+
+.scrollText
+{
+  /* border: solid blue; */
+  background-color: rgb(240, 77, 36);
+  font-size: 20px;
+  text-align:start;
+  /* animation:animateThis 3s ease-in-out infinite; */
+}
+.transitionCont
+{
+  /* transition-timing-function: linear; */
+}
+
+
+
+
+
+
+
+
+/* -----------------contact Page------------- */
+.formContainer
+   {
+    background-image: url(https://images.pexels.com/photos/212372/pexels-photo-212372.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(242, 201, 207); */
+    /* border: solid black; */
+    height: 90vh;
+    padding-left: 3em;
+
+
+   }
+
+
+   .formContainerBook
+   {
+
+     background-image: url(https://images.pexels.com/photos/28758928/pexels-photo-28758928/free-photo-of-close-up-of-vibrant-orange-lily-flower-petals.jpeg?auto=compress&cs=tinysrgb&w=600);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     /* background-color: rgb(242, 201, 207); */
+     /* border: solid red; */
+     height: 120vh;
+     padding-left: 3em;
+ 
+ 
+    }
+
+   
+   .h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+
+   }
+
+   .formItems{
+    display: flex;
+    flex-direction: column;
+  }
+   
+  input, textarea {
+    padding: 10px;
+    /* border: 2px solid #ccc; */
+    border-radius: 3px;
+    font-size: 20px;
+    width: 60%;
+    box-sizing:border-box;
+  }
+
+  .textarea {
+    resize: horizontal;
+  }
+
+  .button {
+   margin-top:2em;
+   padding: 6px;
+   
+  }
+
+  .button:hover {
+    background-color: lightcoral;
+  }
+
+
+
+/* ------------------------------------Portfolio----------------------------- */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+ul{
+  list-style: none;
+  background: rgb(222, 169, 169);
+}
+ul li{
+  display: inline-block;
+  position: relative;
+}
+ul li a{
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+}
+ul li ul.dropdown li{
+  display: block;
+}
+ul li ul.dropdown{
+  width: 100%;
+  background: lightgray;
+  position: absolute;
+  z-index: 999;
+    display: none;
+  
+}
+ul li a:hover{
+  background: wheat;
+ 
+}
+ul li:hover ul.dropdown {
+  display: block;
+}
+ 
+/* ------------------------------image gallary flex----------------- */
+
